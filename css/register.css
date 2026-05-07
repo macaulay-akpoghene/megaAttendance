@@ -9,6 +9,8 @@
 
 .main {
   background-color: white;
+}
+
 .bg-purple {
   background-color: var(--primary-color);
 }
@@ -39,7 +41,7 @@
   transform: scale(1.1);
 }
 
-.form-floating>label {
+.form-floating label {
   color: #666;
 }
 
