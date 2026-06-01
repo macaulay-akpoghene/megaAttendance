@@ -48,7 +48,7 @@
         <div class="col-sm-12 col-md-4">
           <div class="card p-4  text-center text-white">
             <h3>Total Students</h3>
-            <p class="number">20</p>
+            <p class="number"><?php echo count($datas); ?></p>
           </div>
         </div>
         <div class="col-sm-12 col-md-4">
