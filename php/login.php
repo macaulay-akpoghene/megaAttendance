@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // Ensure the student record actually contains login credentials before checking them
         if (isset($student['username'], $student['password'])) {
             if ($student['username'] === $user && $student['password'] === $pass) {
-                header("Location: ../students_list.php");
+              echo "Login successful! Welcome, " . htmlspecialchars($student['name']);
                             exit;
             }
         }
